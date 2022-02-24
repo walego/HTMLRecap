@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Recap</title>
+</head>
+<body>
+        <div style="background-color: gold; border: solid 2px black;">
+            <nav style="text-align: right;">
+            <a href="https://magic.wizards.com/en">Official Site</a>
+            <a href="https://gatherer.wizards.com/Pages/Default.aspx">Card Database</a>
+            </nav>
+            <h1>Survey about Magic: The Gathering</h1>
+        </div>
+        <form>
+            <fieldset>
+                <Legend>Favorite Color</Legend>
+                <p>
+                    <input type="radio" name="color"
+                        id="color1" value="color1">
+                    <label for="color1">Red</label>                        
+                </p>
+                <p>
+                    <input type="radio" name="color"
+                        id="color2" value="color2">
+                    <label for="color2">White</label>
+                </p>
+                <p>
+                    <input type="radio" name="color"
+                        id="color3" value="color3">
+                    <label for="color3">Green</label>
+                </p>
+                <p>
+                    <input type="radio" name="color"
+                        id="color4" value="color4">
+                    <label for="color4">Black</label>
+                </p>
+                <p>
+                    <input type="radio" name="color"
+                        id="color5" value="color5">
+                    <label for="color5">Blue</label>
+                </p>
+            </fieldset>
+            <iframe src="https://www.youtube.com/embed/ctSYGu4hAsA" 
+                frameborder="0"
+                width="560" height="315"
+                allowfullscreen>
+            </iframe>
+            <fieldset>
+                <p>
+                    <label for="set">
+                    Favorite MTG Set <input name="set">
+                    </label>
+                </p>
+                <p>
+                    <label for="card">
+                    Favorite MTG Card <input name="card">
+                    </label>
+                </p>
+                <p>
+                    <label for="moment">Favorite Moment playing MTG</label>
+                </p>
+                <p>
+                    <textarea name="moment" id="" cols="30" rows="5"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </fieldset>
+        </form>
+        <footer>
+            <p>Copyright © 1995 - 2022 Wizards of the Coast LLC</p>
+        </footer>
+</body>
+</html>
